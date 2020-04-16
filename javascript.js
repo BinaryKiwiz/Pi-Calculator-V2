@@ -3,7 +3,7 @@ var Iteration = 0;
 var Denominator = 0;
 
 function RefreshPi(){
-  document.getElementById("Pi").innerHTML = CurrentPi.toFixed(100);
+  document.getElementById("Pi").innerHTML = CurrentPi.toFixed(50);
 }
 
 function RefreshIteration(){
